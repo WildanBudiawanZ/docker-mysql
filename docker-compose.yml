@@ -1,0 +1,10 @@
+version: "3.1"
+
+services:
+  mysql_kelas_x:
+    container_name: mysql_kelas_x
+    image: mysql:8.0.33
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=1234
