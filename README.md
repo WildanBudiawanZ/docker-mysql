@@ -23,3 +23,14 @@ docker container ls -all
 ```
 docker images
 ```
+
+
+### stop the container
+```
+docker compose stop
+```
+
+### start the container
+```
+docker compose start
+```
